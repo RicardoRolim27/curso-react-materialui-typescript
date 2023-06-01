@@ -37,9 +37,6 @@ export const MenuLateral: React.FC<any> = ({ children }) => {
             alignItems="center"
             justifyContent="center"
           >
-            <Box>
-              <Button variant="contained" color="primary" onClick={toggleDrawerOpen}>Menu</Button>
-            </Box>
             <Avatar
               sx={{ height: theme.spacing(12), width: theme.spacing(12) }}
               alt="Remy Sharp"
