@@ -1,9 +1,10 @@
 import { Box, Button } from '@mui/material';
 import { useAppThemeContext, useDrawerContext } from '../shared/contexts';
+import { useEffect } from 'react';
 
 
 export const PaginaInicial = () => {
-  const {toggleDrawerOpen} = useDrawerContext();
+  const {toggleDrawerOpen, setDrawerOptions } = useDrawerContext();
   const {toggleTheme} = useAppThemeContext();
 
   return (
