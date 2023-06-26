@@ -4,7 +4,7 @@ import { LayoutBaseDePagina } from '../../shared/layouts';
 export const Dashboard: React.FC = () => {
   return (
     <>
-      <LayoutBaseDePagina title='Dashboard' children={undefined}></LayoutBaseDePagina>
+      <LayoutBaseDePagina title='Dashboard' children={undefined} barraDeFerramentas={<>Barra de Ferramentas</>}></LayoutBaseDePagina>
     </>
   );
 };
